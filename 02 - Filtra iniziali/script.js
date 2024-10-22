@@ -7,7 +7,8 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 function namesWith(text){
     for (let i = 0; i < names.length; i++){
         const initial = names[i];
-        if(initial.includes(text)){
+        // console.log(initial);
+        if(initial[0] === text){
             console.log(initial)
         }
     }
