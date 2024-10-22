@@ -6,13 +6,15 @@ const name = 'Mario';
 // Dichiara la funzione qui.
 
 function saluto(stringa){
-    console.log('ciao ' + stringa)
+    return `Ciao  ${stringa}`
 }
 
 
 // Invoca la funzione qui e stampa il risultato in console
 
 personalsaluto = saluto(name);
+
+console.log(personalsaluto);
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
